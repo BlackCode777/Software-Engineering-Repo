@@ -8,13 +8,20 @@ Seu principal objetivo é consolidar o aprendizado em design de sistemas complex
 
 ## 🎯 Objetivos Principais
 
-* **Aprofundamento Arquitetural:** Documentar a exploração de padrões avançados (e.g., *Saga*, *Event Sourcing*, *Service Mesh*) e design de sistemas distribuídos e resilientes.
-* 
-* **Fundamentação Teórica:** Conectar a vasta experiência prática com a consistência teórica, focando em princípios de Engenharia de Software para escalabilidade e manutenibilidade.
-* 
-* **Otimização e Performance:** Registrar estudos sobre otimização de *queries*, indexação e estratégias de busca distribuída, com aplicações diretas em bancos de dados como **PostgreSQL, MongoDB e ElasticSearch**.
-* 
-* **Estratégias de Deploy:** Documentar as melhores práticas em automação **CI/CD** e integração de arquiteturas com plataformas de *Cloud Computing* e **Alta Disponibilidade**.
+**Aprofundamento Arquitetural:** 
+Documentar a exploração de padrões avançados (e.g., *Saga*, Event Sourcing*, *Service Mesh*) e design de sistemas distribuídos e resilientes.
+
+**Fundamentação Teórica:** 
+Conectar a vasta experiência prática com a consistência teórica, focando em princípios de Engenharia de Software para escalabilidade e manutenibilidade.
+ 
+**Otimização e Performance:** 
+Registrar estudos sobre otimização de *queries*, indexação e estratégias de busca distribuída, com aplicações diretas em bancos de dados como **PostgreSQL, MongoDB e ElasticSearch**.
+ 
+**Estratégias de Deploy:** 
+Documentar as melhores práticas em automação **CI/CD** e integração de arquiteturas com plataformas de *Cloud Computing* e **Alta Disponibilidade**.
+
+**Compartilhamento de Conhecimento:** 
+Criar um repositório acessível para profissionais e estudantes interessados em arquitetura de software, promovendo a troca de conhecimento e experiências.
 
 ---
 

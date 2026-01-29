@@ -1,0 +1,84 @@
+BlackCode77, o que esse texto está dizendo, na prática, é isso:
+
+1. **Você é obrigado a fazer TCC**
+   Só para os cursos da área de **Engenharia** (no seu caso, Engenharia de Software), o TCC é obrigatório.
+
+2. **O formato do TCC é 1 só: Artigo Científico de Revisão Bibliográfica**
+   Seu TCC tem que ser um **artigo**, no padrão acadêmico, cujo método é **revisar literatura** (livros, artigos científicos, normas, publicações técnicas confiáveis) sobre um tema.
+
+3. **Você NÃO pode fazer vários formatos comuns de TCC**
+   Eles estão proibindo explicitamente:
+
+   * **Monografia** (aquele trabalho longo, “capítulos”, cara de livro)
+   * **Estudo de caso** (ex.: “analisei a empresa X e o sistema Y”)
+   * **Pesquisa de campo** (questionário, entrevista, coleta com pessoas)
+   * **Projeto** (ex.: “vou construir um sistema/app e documentar”)
+   * **Relato de experiência** (ex.: “no meu trabalho aconteceu isso e aprendi aquilo”)
+
+4. **O que é “revisão bibliográfica” de verdade**
+   É um trabalho onde você:
+
+   * escolhe um tema e uma pergunta (ex.: “Quais práticas reduzem falhas em CI/CD?”)
+   * busca e seleciona fontes (bases, artigos, livros, normas)
+   * compara autores e abordagens (concordâncias, divergências)
+   * sintetiza conclusões (tendências, lacunas, melhores práticas)
+   * fecha com considerações e referências
+
+5. **O que eles querem evitar**
+   Eles querem evitar TCC “na prática” (construir algo, pesquisar pessoas, aplicar em empresa).
+   Eles querem um TCC “de mesa”: leitura, seleção, análise e síntese de fontes.
+
+
+BlackCode77, perfeito. Dentro dessas regras, falar de **Arquitetura de Software** é um dos temas mais “seguros” para um **artigo de revisão bibliográfica**, porque você consegue sustentar tudo com literatura e normas, sem precisar de projeto ou pesquisa de campo.
+
+## O que seu TCC precisa ser (traduzindo para arquitetura)
+
+Você vai escrever um artigo que:
+
+* escolhe um recorte de arquitetura (ex.: microserviços, DDD, CQRS, hexagonal, eventos)
+* levanta o que a literatura diz (autores, padrões, práticas, trade-offs)
+* compara abordagens (quando faz sentido, quando dá ruim, riscos e mitigação)
+* entrega uma síntese final (guidelines e conclusões)
+
+## 8 temas de Arquitetura que se encaixam 100% como revisão bibliográfica
+
+1. **Arquitetura Hexagonal e Clean Architecture**: benefícios, limites e critérios de adoção
+2. **DDD aplicado**: como o DDD influencia modularidade, evolução e manutenibilidade
+3. **Microserviços vs Monólito Modular**: critérios arquiteturais para decisão (não opinião)
+4. **CQRS e Event Sourcing**: impacto em escalabilidade, consistência e complexidade
+5. **Arquiteturas orientadas a eventos** (EDA): padrões, riscos (duplicidade, ordering) e observabilidade
+6. **Governança de APIs**: versionamento, contratos, backward compatibility e gateways
+7. **Observabilidade como requisito arquitetural**: logs/métricas/traces e impacto em confiabilidade
+8. **Arquitetura segura por design**: threat modeling e controles em camadas (sem virar curso de pentest)
+
+## 5 sugestões de título prontas (bem “acadêmicas”)
+
+1. “Critérios para adoção de Microserviços vs Monólito Modular: uma revisão bibliográfica”
+2. “Arquitetura Hexagonal e Clean Architecture: análise comparativa e diretrizes de aplicação”
+3. “DDD como estratégia de evolução de software: uma revisão bibliográfica sobre modularidade e manutenção”
+4. “CQRS e Event Sourcing: benefícios, limitações e cenários de uso sob a ótica da literatura”
+5. “Observabilidade em arquiteturas distribuídas: revisão bibliográfica e impactos em confiabilidade”
+
+## Estrutura enxuta que geralmente “passa” nessas faculdades
+
+* Introdução (problema, relevância, objetivo)
+* Metodologia (como você buscou e selecionou as fontes)
+* Fundamentação (conceitos e definições)
+* Discussão/Análise comparativa (trade-offs, quando usar, riscos)
+* Síntese de diretrizes (tabela de “quando usar / evitar”)
+* Conclusão
+* Referências
+
+## Minha opinião direta (escolha mais forte)
+
+Se o objetivo é ficar **mais valorizado** como arquiteto/tech lead, o tema com melhor retorno é:
+**“Microserviços vs Monólito Modular + critérios de decisão”**
+Porque empresa vive errando isso, e quem sabe decidir vira referência.
+
+Se você me disser qual linha você curte mais:
+
+* (A) Microserviços/monólito modular
+* (B) DDD/hexagonal/clean
+* (C) CQRS/eventos
+  eu já te devolvo um recorte fechado com: **problema**, **pergunta de pesquisa**, **palavras-chave**, e **sumário do artigo** (pronto para começar a escrever).
+

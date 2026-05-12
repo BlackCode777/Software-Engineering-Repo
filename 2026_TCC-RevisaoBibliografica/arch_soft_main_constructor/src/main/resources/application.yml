@@ -1,0 +1,50 @@
+spring:
+  application:
+    name: archsoft-constructor
+  profiles:
+    default: local
+  datasource:
+    url: ${SQLSERVER_JDBC_URL:jdbc:sqlserver://localhost:1433;databaseName=ArchSoftConstructor;encrypt=true;trustServerCertificate=true}
+    username: ${SQLSERVER_USER:sa}
+    password: ${SQLSERVER_PASSWORD:YourStrong!Passw0rd}
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    hikari:
+      initialization-fail-timeout: 0
+      minimum-idle: 0
+      maximum-pool-size: 2
+  sql:
+    init:
+      mode: never
+
+server:
+  port: ${SERVER_PORT:8080}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  tracing:
+    sampling:
+      probability: 1.0
+  otlp:
+    tracing:
+      endpoint: ${OTEL_EXPORTER_OTLP_TRACES_ENDPOINT:http://localhost:4318/v1/traces}
+  opentelemetry:
+    resource-attributes:
+      service.name: archsoft-constructor
+      archsoft.architecture: constructor
+      archsoft.scenario: orders-mvp
+      archsoft.repo: archsoft-main-constructor
+
+logging:
+  level:
+    br.com.archsoft.constructor: INFO

@@ -11,5 +11,8 @@
 
     <modules>
         <module>arch_soft_main_constructor</module>
+        <module>archsoft-monolith</module>
+        <module>archsoft-hexagonal</module>
+        <module>archsoft-cqrs</module>
     </modules>
 </project>

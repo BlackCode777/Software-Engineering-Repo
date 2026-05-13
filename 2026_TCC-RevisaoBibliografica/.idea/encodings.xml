@@ -2,5 +2,17 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/arch_soft_main_constructor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-cqrs/app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-cqrs/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-cqrs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-cqrs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-hexagonal/app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-hexagonal/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-hexagonal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-hexagonal/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-monolith/app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-monolith/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-monolith/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archsoft-monolith/src/main/resources" charset="UTF-8" />
   </component>
 </project>

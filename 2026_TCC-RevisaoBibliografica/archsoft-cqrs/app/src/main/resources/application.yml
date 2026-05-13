@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: archsoft-cqrs
+  profiles:
+    default: local
+
+server:
+  port: 8083
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  tracing:
+    sampling:
+      probability: 1.0
+  otlp:
+    tracing:
+      endpoint: ${OTEL_EXPORTER_OTLP_TRACES_ENDPOINT:http://localhost:4318/v1/traces}
+  opentelemetry:
+    resource-attributes:
+      service.name: archsoft-cqrs
+      archsoft.architecture: cqrs
+      archsoft.scenario: orders-mvp
+      archsoft.repo: archsoft-cqrs
+      deployment.environment: local
+
+logging:
+  pattern:
+    level: "%5p [requestId:%X{requestId:-} runId:%X{runId:-}]"

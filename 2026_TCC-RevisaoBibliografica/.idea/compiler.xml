@@ -6,13 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common (3) (br.com.archsoft.monolith)" />
+        <module name="app (2) (br.com.archsoft.hexagonal)" />
         <module name="arch_soft_main_constructor" />
+        <module name="app (3) (br.com.archsoft.monolith)" />
+        <module name="common (2) (br.com.archsoft.hexagonal)" />
+        <module name="common (1) (br.com.archsoft.cqrs)" />
+        <module name="app (1) (br.com.archsoft.cqrs)" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app (1) (br.com.archsoft.cqrs)" options="-parameters" />
+      <module name="app (2) (br.com.archsoft.hexagonal)" options="-parameters" />
+      <module name="app (3) (br.com.archsoft.monolith)" options="-parameters" />
       <module name="arch_soft_main_constructor" options="-parameters" />
+      <module name="common (1) (br.com.archsoft.cqrs)" options="-parameters" />
+      <module name="common (2) (br.com.archsoft.hexagonal)" options="-parameters" />
+      <module name="common (3) (br.com.archsoft.monolith)" options="-parameters" />
     </option>
   </component>
 </project>
